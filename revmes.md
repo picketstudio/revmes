@@ -1,6 +1,6 @@
 # Revmes Versioning 1.0.1
 
-# What's the problem we're trying to solve?
+## What's the problem we're trying to solve?
 
 When developing and deploying mobile applications that have the ability to send Over The Air (OTA) updates you inevitably run into the issue of how to support as many possible versions of the application in the wild safely. *Safety* in this case means that a given `JS bundle` is **100% guaranteed** be deployed to a particular version of the native app that is live on users devices, without crashing.
 
