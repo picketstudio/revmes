@@ -12,9 +12,11 @@ When submitting an application update to an App Store, the application native co
 
 When udating via OTA only the JavaScript is rebundled. It is then sent to the user who downloads and updates their current application instance.
 
-### The Problem revmes addresses
+### The Problem revmes tries to address
 
 When updating your application via OTA you inevitably run into the issue of how to support as many possible versions of the application in the wild safely. *Safety* in this case means that a given `JavaScript bundle` is **100% guaranteed** be deployed to a particular version of the native app that is live on users devices, without crashing.
+
+What happens when you update your application's JavaScript bundle, push a new update via OTA but it breaks on devices that are using older versions of your application because the new JavaScript changes you just pushed relied on a native module that didn't exist in older versions of your application?
 
 ## Scheme
 
