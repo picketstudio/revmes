@@ -1,4 +1,4 @@
-# Revmes Versioning 1.0.2
+# Revmes Versioning 1.0.3
 
 ## Why Use Revmes Versioning?
 
