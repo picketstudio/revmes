@@ -10,7 +10,7 @@ When submitting an application update to an App Store, the application native co
 
 #### Over-The-Air (OTA).
 
-When udating via OTA only the JavaScript is rebundled. It is then sent to the user who downloads and updates their current application instance.
+When updating via OTA only the JavaScript is rebundled. It is then sent to the user who downloads and updates their current application instance.
 
 ### The Problem revmes tries to address
 
